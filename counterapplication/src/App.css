@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.App button{
+  border : none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 22px;
+  border-radius: 4px;
+  color: white;
+}
+
+button.Minus{
+  background-color: red;
+}
+
+button.Plus{
+  background-color: blue;
+}
+
